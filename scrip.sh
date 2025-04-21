@@ -16,7 +16,7 @@ sudo archlinux-java set java-17-openjdk
 
 # Descargar Paper (un servidor optimizado de Minecraft)
 echo "Descargando Paper (servidor de Minecraft)..."
-wget -O paper.jar https://api.papermc.io/v2/projects/paper/versions/1.20.1/builds/196/downloads/paper-1.20.1-196.jar
+wget -O paper.jar https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar
 
 # Crear un script de inicio para el servidor
 echo "Creando script de inicio..."
