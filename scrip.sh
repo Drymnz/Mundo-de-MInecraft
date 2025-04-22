@@ -8,7 +8,8 @@ cd ~/minecraft-server
 
 echo "Instalando dependencias necesarias..."
 sudo pacman -Syu --noconfirm
-sudo pacman -S --noconfirm jdk17-openjdk screen wget unzip
+sudo pacman -S --noconfirm screen wget unzip
+sudo pacman -S --noconfirm jdk-openjdk
 
 # Configurar Java
 echo "Configurando Java..."
