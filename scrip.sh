@@ -24,6 +24,8 @@ echo "Creando script de inicio..."
 cat > start.sh << 'EOL'
 #!/bin/bash
 java -Xms1G -Xmx2G -jar paper.jar nogui
+
+echo "user"
 EOL
 chmod +x start.sh
 
